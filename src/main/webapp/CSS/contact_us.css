@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    height: 450px;
+}
+.container .person1{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.container .person1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px ;
+}
+.person1 h2{
+    margin-top: 20px;
+    
+}
+.person1 p{
+    margin-top: 20px;
+}
+.person1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

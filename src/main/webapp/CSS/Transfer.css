@@ -1,0 +1,151 @@
+
+body{
+    margin:0;
+    padding:0;
+    overflow: auto;
+    font-family: "Mystery Quest", system-ui;
+    background-color: rgb(38, 35, 58);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(247, 239, 233, 0.4);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0%;
+    margin-bottom: 10px;
+ }
+
+
+.from,
+.to,
+.amount_reference,
+.payment_detail_note,
+.payment_date,
+.note {
+    margin-bottom: 15px;
+}
+
+.from,
+.to{
+    background-color:rgba(247, 239, 233, 0.3) ;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.amount,
+.reference {
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+}
+
+.amount_reference{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.amountmoney{
+    margin-right:10px ;
+}
+
+
+.amountmoney input[type="text"],
+.recipientreference input[type="text"],
+.paymentdetail input[type="text"],
+.payment_date input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.amountmoney input[type="text"],
+.recipientreference input[type="text"],
+.paymentdetail input[type="text"]{ 
+    padding-top: 18px;
+}
+
+.amountnote p,
+.payment_detail_note p,
+.referencenote p,
+.note{
+    margin: 5px 0;
+    font-size: 14px;
+}
+.amountmoney,
+.recipientreference,
+.paymentdetail,
+.payment_date{
+    position: relative;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 2px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 100%;
+  height: 35px;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top:7px;
+  transition: 0.2s ease all;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer-button{
+    font-family: "Mystery Quest", system-ui;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color:black;    
+}
+
+body button:hover{
+    border-color: rgba(255, 255, 255, 0.947);
+    
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.floating{
+    position: absolute;
+    left:15px;
+    margin-top: -2px;
+    font-size: 13px;
+}

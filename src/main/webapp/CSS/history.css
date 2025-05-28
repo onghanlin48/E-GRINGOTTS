@@ -1,0 +1,140 @@
+h1{
+    color: black;
+    font-size: 30px;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px    ;
+}
+.filter .status{
+    margin-left: 30px;
+}
+div h2{
+    margin-right: 200px;
+    color: black;
+}
+
+li{
+    margin-right: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container h1{
+    margin-left: 50px;
+}
+input {
+     
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px ;
+    font-family: "Mystery Quest";
+    background-color: transparent;
+    color: black;   
+}
+select{
+     
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px ;
+    font-family: "Mystery Quest";
+    background-color: transparent;
+    outline: none;
+    color: black;
+}
+select option{
+    font-family: "Mystery Quest";
+    color:black;
+    
+    
+}
+.search{
+    margin-left: 50px;
+}
+.search button{
+    margin-left: 20px;
+    padding:10px 20px;
+    border-radius: 10px;
+    font-size: 20px ;
+    font-family: "Mystery Quest";
+    background-color: transparent;
+    color: black;
+    border-color:grey;
+
+}
+.search button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.history{
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 25px;  
+}
+.butir{
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.butir1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-right: 50px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 30px;  
+}
+.bigContainer{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px 0px;
+    margin:0px 100px;
+    border-radius: 20px;
+}
+
+.butir1 .Date{
+    margin-right:-70px;
+}
+input[type="date"]{
+    border-color:rgba(255, 255, 255, 0.6);
+}
+select {
+    border: 2px solid rgba(128, 128, 128,0.3); /* Border of the select box */
+}
+.approved{
+    color:white;
+    background-color:rgba(17, 227, 17,0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+.pending{
+    background-color:rgba(255, 255, 0, 0.4);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.rejected{
+    background-color:rgba(254, 19, 19, 0.40);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    
+}

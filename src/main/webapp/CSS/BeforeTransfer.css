@@ -1,0 +1,228 @@
+
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    font-family: "Mystery Quest", system-ui;
+    background-color: rgb(38, 35, 58);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(247, 239, 233, 0.4);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.from-container,
+.to-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(247, 239, 233, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 9px;
+}
+
+.from-container {
+    flex: 1;
+}
+
+.to{
+    margin-left: 20px;
+}
+
+.to-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.from-container .did-floating-label-content {
+    flex: 1;
+}
+
+.toaccountnumber{
+    margin-left: 20px;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.searchby,
+.search-container {
+    margin-bottom: 8px;
+}
+
+.search-container,
+.did-floating-label-content {
+    position: relative;
+}
+
+.did-floating-label {
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 11px;
+    padding: 0 5px;
+    background: #fff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.did-floating-input, .did-floating-select {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    background: #fff;
+    color: #323840;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.did-floating-input:focus, .did-floating-select:focus {
+    outline: none;
+}
+
+.did-floating-input:focus ~ .did-floating-label, 
+.did-floating-select:not([value=""]):valid ~ .did-floating-label, 
+.did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+    top: -8px;
+    font-size: 13px;
+}
+
+.did-floating-select[value=""]:focus ~ .did-floating-label {
+    top: 11px;
+    font-size: 13px;
+}
+
+.input-group {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.input-group-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    height: 36px;
+    color: #323840;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.input-group .did-floating-input {
+    background: #fff;
+    padding-left: 35px; /* Adjust padding to make room for the input-group-text */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favourite-search button{
+    font-family: "Mystery Quest", system-ui;
+    font-size:15px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color:black;   
+}
+
+
+
+body button:hover{
+    border-color: rgba(255, 255, 255, 0.947);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.favourite-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.favourite-button, .search-button {
+    cursor: pointer;
+}
+
+.favourite-list {
+    background-color: rgba(190, 189, 189, 0);
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    margin-bottom: 10px;
+    max-height: 150px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.favourite-list::-webkit-scrollbar {
+    display: none;  
+}
+
+.favourite-list .name1{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.Proceed-button{
+    font-family: "Mystery Quest", system-ui;
+    font-size:15px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+    margin: auto;
+    display: block;
+    text-align: center; 
+}
+
+table{
+    border-spacing: 0 10px;
+}
+
+td {
+    text-align: center;
+}

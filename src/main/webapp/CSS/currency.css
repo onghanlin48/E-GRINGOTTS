@@ -1,0 +1,71 @@
+ 
+.container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}   
+
+.popup{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    position: absolute;
+    text-align: center;
+    width:400px;
+    height: 420px;
+    border-radius:10px;
+    
+}
+.currency_Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 40px;
+    
+}
+.currency_Container input,select{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: "Mystery Quest";
+    font-size: 18px;
+}
+.currency_Container input{
+    width: 150px;
+    margin-right: 20px;
+}
+.currency_Container p{
+    font-size: 20px;
+}
+
+.Yhv{
+    justify-content: left;
+}
+.popup h1{
+    margin-top: 20px;
+}
+.rate{
+    font-size: 20px;
+    
+}
+.popup button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "Mystery Quest";
+    margin-top: 20px;
+    border-color: grey;
+}
+.popup button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+option{
+    font-family: "Mystery Quest";
+}
+option value{
+    font-family: "Mystery Quest";
+}

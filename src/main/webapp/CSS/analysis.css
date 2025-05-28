@@ -1,0 +1,72 @@
+.bigContainer{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.smallContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align children to start */
+    align-items: center;
+    height:450px;
+    width: 900px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 8px;
+     
+}
+.smallContainer h2{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+         
+}
+.smallContainer .filter select option{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between  ;
+    
+}
+.smallContainer .filter input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ; 
+    background-color: transparent;
+    padding: 10px;
+    border-radius:5px;
+    width: 200px;
+    margin:20px 0px;
+}
+.smallContainer .filter select{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ; 
+    background-color: transparent;
+    padding: 10px;
+    border-radius:5px;
+    width: 227px;
+    margin:30px 0px;
+}
+
+.leftContainer{
+    height:450px;
+     
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin-top: 40px;
+}
+.filter{
+    width: fit-content;
+}
+input[type="date"] {
+    font-family:"Mystery Quest"; /* Change font family */
+    font-size: 16px; /* Change font size */
+    
+}
+canvas{
+    margin-left: 50px   ;
+}

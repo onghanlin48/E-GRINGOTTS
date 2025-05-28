@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;  
+    overflow: hidden;
+    font-family: "Mystery Quest", system-ui;
+    background-image: url(../Image/horror-pumpkins-halloween_1574941038.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.popup{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    position: absolute;
+    text-align: center;
+    width:350px;
+    height: 400px;
+    border-radius:10px;
+    
+}
+.popup img{
+    height: 120px;
+    margin-top: -15%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), green, blue;
+}
+.popup h2{
+    margin-top: 25px;
+    font-family: "Mystery Quest", system-ui;
+    font-size: 45px;
+}
+.popup p{
+    font-family: "Mystery Quest", system-ui;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.popup button{
+    margin-top: 30px;
+    outline: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 8px 40px;
+    bottom: 5px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    font-family: "Mystery Quest", system-ui;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+
+}
+.popup button:hover {
+    border: 1px solid azure;
+}

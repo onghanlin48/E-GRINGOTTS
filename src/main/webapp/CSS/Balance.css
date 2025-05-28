@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: auto;
+    font-family: "Mystery Quest", system-ui;
+    background-color: rgb(38, 35, 58);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(247, 239, 233, 0.4);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+
+.container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.total-balance, .saving-balance, .debit-balance {
+    padding: 25px;
+    background-color: rgba(247, 239, 233, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.total-balance h1, .saving-balance h1, .debit-balance h1 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.total-balance p, .saving-balance p, .debit-balance p {
+    margin: 10px 0 0;
+    font-size: 30px;
+}
+
+body button:hover{
+    border-color: rgba(255, 255, 255, 0.947);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.back-button{
+    font-family: "Mystery Quest", system-ui;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button:hover{
+    color:white;
+}

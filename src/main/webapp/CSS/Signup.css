@@ -1,0 +1,170 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap");
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    font-family: "Mystery Quest", system-ui;
+    background-image: url(../Image/horror-pumpkins-halloween_1574941038.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+
+    display: flex;
+    flex-direction:row;
+    height:80px;
+    width: 100%;
+
+
+}
+header li{
+    display:inline;
+    margin-right: 35px;
+    margin-left: 7vw;
+}
+header ul{
+    position:absolute;
+
+}
+header h1{
+    color: #ff7300;
+    margin-left: 40px;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Mystery Quest", system-ui;
+    color: #ff7300;
+}
+li a:hover{
+    text-decoration: underline;
+}
+nav{
+    margin-top: 14px;
+}
+.button1{
+    display:inline;
+    margin-left :65%;
+    line-height: 80px;
+
+}
+.button1 a{
+    font-family: "Mystery Quest", system-ui;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+    color: #ff7200;
+
+}
+header button{
+    border-radius: 8px;
+    margin-right: 5px;
+    background-color: transparent;
+    border-color: rgba(255, 157, 0, 0.851);
+    padding: 10px;
+
+}
+header button:hover{
+    border-color: rgba(236, 106, 13, 0.947);
+
+    background-color: #ff7200;
+}
+header button a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    border: black solid 1px;
+    background:rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+ .container h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0%;
+ }
+
+ .container .form{
+    margin-top: 30px;
+ }
+ .form .input-box{
+    width: 100%;
+    margin-top: 20px;
+ }
+ .input-box label{
+    color:#333;
+    font-size: 20px;
+ }
+.form :where(.input-box input),
+.form :where(.input-box select) {
+    position: relative;
+    height: 50px;
+    width: 95%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: none;
+    border-radius: 6px;
+    padding: 0 15px;
+    background-color: rgba(255, 255, 255, 0.437);
+}
+/* Additional styling specifically for select elements */
+.form :where(.input-box select) {
+    /* Additional styling for select elements */
+    appearance: none; /* Removes default dropdown arrow */
+    padding-right: 30px; /* Adds space for custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+  .form .column{
+    display:flex;
+    column-gap:20px;
+  }
+  input::placeholder{
+    font-family: "Mystery Quest";
+  }
+select::placeholder{
+    font-family: "Mystery Quest";
+}
+
+  button{
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 30px;
+    width:100px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-family: "Mystery Quest";
+    background-color:rgba(255, 255, 255, 0.437);
+    
+  }
+
+  button:hover{
+    background-color: #ff7300;
+    color: white;
+  }
+

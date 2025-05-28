@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mystery Quest', system-ui;
+    background: url(../Image/horror-pumpkins-halloween_1574941038.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    padding-top: 90px; /* Adjust for fixed header */
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+}
+
+th, td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.currency-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.currency-form input, .currency-form button {
+    padding: 10px;
+    font-family: "Mystery Quest", system-ui;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.currency-form button {
+    cursor: pointer;
+    background-color: rgba(255, 165, 0, 0.7);
+}
+
+.currency-form button:hover {
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.diagram-container, .graph-container {
+    width: 80%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin: 20px auto; /* Center the containers */
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for graph container */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.diagram-container canvas, .graph-container canvas {
+    width: 100%;
+    height: 100%;
+}
+
+body button:hover{
+    border-color: rgba(255, 255, 255, 0.947);
+    background-color: rgba(0, 0, 0, 0.1);
+}
